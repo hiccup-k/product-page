@@ -1,0 +1,409 @@
+<!doctype html>
+<html>
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>
+         Music Paradise
+      
+      </title>
+     <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <style>
+
+      @font-face{
+        font-family:seventeen;
+        src:url('https://fontmeme.com/fonts/seventeen-font/');
+      }
+      @font-face{
+        font-family:love-yourself;
+        src:url('https://fontmeme.com/love-yourself-tour-font/');
+      }
+      
+      @font-face{
+        font-family:txt;
+        src:url('https://fontmeme.com/pixel-fonts/');
+      }
+     
+      @font-face{
+        font-family:love-purple;
+        src:url('https://www.fontmirror.com/love-purple');
+      }
+
+      #page-name{
+        font-family:Mistral;
+        color:#DBE6FD;
+        }
+
+      .grid-nav{
+        display:flex;
+        justify-content:space-between;
+        overflow: hidden;
+      }
+      #header{
+        position:sticky;
+        top: 0;
+        z-index: 9999;
+
+      }
+
+      #nav-bar{
+        width:auto;
+        height:auto;
+        
+        background-color:#0A1D37;
+        
+      }
+
+
+      .nav-link:hover{
+        color:#00F3E4;
+      }
+      .nav-link{
+        color:#FFEEDB;
+        text-decoration:none;
+        font-size:30px;
+        font-family:Gabriola;
+        display: inline-block;
+      }
+      #description{
+        font-family:Goudy Old Style;
+        font-size:20px;
+        color:#1F024C;
+      }
+   
+       #home-img {
+             width:80%;
+             align:center;
+             margin-top:10px;
+             }
+        #description{
+          text-align:right;
+          font-weight:bold;
+        }
+        #form{
+        
+          background-color:#0A1D37;
+          color:#FFEEDB;
+          text-align:center;
+          
+          
+        }
+
+       .form-label{
+         margin-top:20px;
+         font-size:35px;
+          font-weight:bold;
+          font-family:Gabriola;
+          }
+
+       .form-control{
+         width:50%;
+         align-self:center;
+         box-shadow: 2px 2px 2px #D8B384;
+       }
+       #email{
+             display: block;
+             margin : 0 auto;
+
+       }
+       .form-text{
+         color:#FFEEDB;
+         font-style:italic;
+         text-align:center;
+       }
+       .container{
+         display:grid;
+         grid-template-columns:35% 65%;
+       }
+       #bts-section{
+         height:auto;
+         padding-top:160px;
+         padding-bottom:160px;
+         background-color:#583D72;
+       }
+
+       .card {
+         margin-left: 10px;
+         margin-right:10px;
+         text-align: center;
+             }
+       
+       .card-title{
+         font-size:20px;
+
+             }
+
+        .card-subtitle{
+          font-size:15px;
+        }
+
+        .tab1cards {
+           display: flex;
+           flex-direction: row;
+              }
+        #bts{
+          font-family:love-yourself;
+          font-size:150px;
+          color:#FEA82F;
+        }
+        #svt-section{
+         height:auto;
+         padding-top:160px;
+         padding-bottom:160px;
+         background-color:#D8F8B7;
+       }
+       #svt{
+          padding-top:5px;
+          font-size:150px;
+          font-family:seventeen;
+          color:#064420;
+
+
+        }
+        #txt-section{
+         height:auto;
+         padding-top:160px;
+         padding-bottom:160px;
+         background-color:#301781;
+       }
+       #txt{
+          padding-top:5px;
+          font-size:65px;
+          font-family:txt;
+          text-align:center;
+          color: #E0FFFB;
+                    -webkit-text-fill-color: #301781; 
+                     -webkit-text-stroke-width: 1px;
+                      -webkit-text-stroke-color: E0FFFB;
+
+
+        }
+        #sample{
+          height:auto;
+         padding-top:160px;
+         padding-bottom:160px;
+         background-color:#F0EBCC;
+
+        }
+        #gallery{
+          margin-bottom:100px;
+
+        }
+        #gallery-heading{
+          color:#8c0034;
+          font-family:love-purple;
+          font-size:150px;
+          text-align:center;
+          
+        }
+        .video-grid{
+          display:flex;
+          justify-content:space-between;
+
+        }
+        #video{
+          padding-right:15px;
+          padding-left:15px;
+          
+        }
+        
+       
+
+      
+       </style>   
+   
+   </head>
+     
+
+   <body>
+    <header id="header">
+      <nav id="nav-bar">
+       <div class="grid-nav">
+       <a href="#home">
+         <img src="music.png" alt="logo" width="80" class="d-inline-block align-text-top" id="header-img">
+         </a>
+        <h1 id="page-name">Music Paradise</h1>
+        <a class="nav-link" href="#bts-section"> BTS
+        </a>
+        <a class="nav-link" href="#svt-section"> SEVENTEEN
+        </a>
+        <a class="nav-link" href="#txt-section"> TOMORROW X TOGETHER
+        </a>
+        <a class="nav-link" href="#sample">Music Gallery
+        </a>
+         </div>
+     </nav>
+     </header>
+     
+        
+
+     <!--**********     HOME SECTION      *******************************-->
+      <section id="home">
+      <div id="home-container">
+          <img src="logo-f.jpg" id="home-img">
+         <p id="description"> 
+            This platform Music Paradise is design as a product page for the sales of music albums of few k-pop groups namely BTS, SEVENTEEN ,TOMORROW X TOGETHER .
+          </p>
+
+         <form id="form" action="https://www.freecodecamp.com/email-submit">
+           <div class="mb-3">
+             <label for="exampleInputEmail1" class="form-label">Email address</label>
+             <input type="email" class="form-control" id="email" name="email" placeholder="Emali Adress">
+           <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+           <input type="submit" id="submit" name="email-input">
+           </div>
+        </form>
+        </div>
+      </section>
+       <!--**********     BTS SECTION      *******************************-->
+
+      
+      <section id="bts-section">
+        <div class="container" id="bts-container">
+      <div class="section-heading">
+        <h1 id="bts"> BTS </h1>
+      </div>
+      <div class="tab1cards">
+        <div class="card" style="width: 18rem;">
+           <img src="https://ibighit.com/bts/images/bts/discography/love_yourself-her/album-cover.jpg" class="card-img-top" alt="love-yourself-her">
+             <div class="card-body">
+               <h3 class="card-title">LOVE YOURSELF 承 ‘HER’</h3>
+               <h5 class="card-subtitle"> THE 5TH MINI ALBUM </h5>
+               <p class="prize">$13.84</p>
+               <a href="https://youtu.be/MBdVXkSdhwU" class="btn btn-dark">Title Track: DNA</a>
+             </div>
+            </div>
+
+             <div class="card" style="width: 18rem;">
+           <img src="https://ibighit.com/bts/images/bts/discography/love_yourself-tear/album-cover.jpg" class="card-img-top" alt="love-yourself-tear">
+             <div class="card-body">
+               <h3 class="card-title">LOVE YOURSELF 轉 ‘TEAR’</h3>
+               <h5 class="card-subtitle">3RD FULL-LENGTH ALBUM </h5>
+               <p class="prize">$15.14</p>
+               <a href="https://youtu.be/7C2z4GqqS5E" class="btn btn-dark">Title Track: Fake Love</a>
+             </div>
+             </div>
+
+
+             <div class="card" style="width: 18rem;">
+              <img src="https://ibighit.com/bts/images/bts/discography/love_yourself-answer/album-cover.jpg" class="card-img-top" alt="love-yourself-answer">
+             <div class="card-body">
+               <h3 class="card-title">LOVE YOURSELF 結 ‘ANSWER’</h3>
+               <h5 class="card-subtitle"> REPACKAGE ALBUM </h5>
+               <p class="prize">$16.53</p>
+               <a href="https://youtu.be/pBuZEGYXA6E" class="btn btn-dark">Title Track: Idol</a>
+             </div>
+            </div>
+          </div>
+          </div> 
+        </section>
+ 
+    <!--**********     SEVENTEEN SECTION      *******************************-->
+
+        <section id="svt-section">
+        <div class="container" id="svt-container">
+      <div class="section-heading">
+        <h1 id="svt"> Seventeen </h1>
+      </div>
+      <div class="tab1cards">
+        <div class="card" style="width: 18rem;">
+           <img src="https://static.wikia.nocookie.net/girlgroup/images/e/e5/SEVENTEEN_Henggar%C3%A6_Online_Cover.jpg/revision/latest?cb=20200621030503" class="card-img-top" alt="hengare">
+             <div class="card-body">
+               <h3 class="card-title">Heng:garæ</h3>
+               <h5 class="card-subtitle">7TH MINI ALBUMN </h5>
+               <p class="prize">$13.84</p>
+               <a href="https://youtu.be/5MUtmsNDL9g" class="btn btn-dark">Title Track: Left & Right</a>
+               </div>
+             </div>
+
+
+             <div class="card" style="width: 18rem;">
+              <img src="https://i.scdn.co/image/ab67616d0000b2735185ebe415e88fc10d8b8ae7" class="card-img-top" alt="you made my dawn">
+             <div class="card-body">
+               <h3 class="card-title">You Made My Dawn</h3>
+               <h5 class="card-subtitle"> 6TH MINI ALBUM </h5>
+               <p class="prize">$15.60</p>
+               <a href="https://youtu.be/R9VDPMk5ls0" class="btn btn-dark">Title Track: Home</a>
+             </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+           <img src="https://i.redd.it/grzzcz1h1ht51.jpg" class="card-img-top" alt="semicolon">
+             <div class="card-body">
+               <h3 class="card-title">SEMICOLON (EP)</h3>
+               <h5 class="card-subtitle">SPECIAL ALBUM </h5>
+               <p class="prize">$15.23</p>
+               <a href="https://youtu.be/UB4FzllQCyc" class="btn btn-dark">Title Track: HOME;RUN</a>
+             </div>
+            </div>
+          </div>
+          </div> 
+        </section>
+
+        <!--**********     TXT SECTION      *******************************-->
+
+        <section id="txt-section">
+        <div class="container" id="txt-container">
+      <div class="section-heading">
+        <h1 id="txt"> TOMORROW<br> X <br> TOGETHER </h1>
+      </div>
+      <div class="tab1cards">
+      
+
+        <div class="card" style="width: 18rem;">
+           <img src="https://ibighit.com/txt/images/txt/discography/the_dream_chapter-magic/album-cover.jpg" class="card-img-top" alt="magic">
+             <div class="card-body">
+               <h3 class="card-title">THE DREAM CHAPTER: MAGIC</h3>
+               <h5 class="card-subtitle">1ST FULL-LENGTH ALBUM </h5>
+               <p class="prize">$13.84</p>
+               <a href="https://youtu.be/6yWPfUz0z94" class="btn btn-dark">Title Track: Run Away</a>
+               </div>
+             </div>
+
+          <div class="card" style="width: 18rem;">
+           <img src="https://ibighit.com/txt/images/txt/discography/blue_hour/19P3lLPNtKeM6x9RGOwO1swi.jpg" class="card-img-top" alt="blue-hour">
+             <div class="card-body">
+               <h3 class="card-title">MINISODE1: BLUE HOUR</h3>
+               <h5 class="card-subtitle">3RD MINI ALBUM </h5>
+               <p class="prize">$15.23</p>
+               <a href="https://youtu.be/Vd9QkWsd5p4" class="btn btn-dark">Title Track: Blue Hour</a>
+             </div>
+            </div>
+
+             <div class="card" style="width: 18rem;">
+              <img src="https://ibighit.com/txt/images/txt/discography/the_dream_chapter-eternity/DEvkuGeZqimp54uCZ5FgbCYu.jpg" class="card-img-top" alt="eternity">
+             <div class="card-body">
+               <h3 class="card-title">THE DREAM CHAPTER: ETERNITY</h3>
+               <h5 class="card-subtitle"> 2ND MINI ALBUM </h5>
+               <p class="prize">$15.60</p>
+               <a href="https://youtu.be/cMFHUTJ13Ys" class="btn btn-dark">Title Track: Can't You See Me?</a>
+             </div>
+            </div>
+          </div>
+            
+          </div> 
+        </section>
+        <!--      MUSIC SAMPLE SECTION      -->
+
+        <section id="sample">
+        <div id="gallery">
+        <h1 id="gallery-heading" > Music Gallery </h1>
+        </div>
+        <div class="video-grid">
+
+        <iframe id="video" width="450" height="315" src="https://www.youtube.com/embed/WMweEpGlu_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <iframe id="video" width="450" height="315" src="https://www.youtube.com/embed/yCvSR4lSqTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <iframe id="video" width="450" height="315" src="https://www.youtube.com/embed/d5bbqKYu51w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+        </div>
+
+     </section>
+
+  </body>
+  
+</html>
+
